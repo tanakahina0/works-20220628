@@ -1,4 +1,4 @@
-﻿@charset "UTF-8";
+@charset "UTF-8";
 
 /* すべてのwebページに適用される */
 body {
@@ -36,7 +36,7 @@ h2{
 	font-size: 18px;
 	border-bottom-width: 2px;
 	border-bottom-style: dotted;
-	border-bottom-color: #442220
+	border-bottom-color: #D4B57C;
 	margin: 20px 0 20px 0;
 	padding: 50px 10px 10px 10px;
 }
