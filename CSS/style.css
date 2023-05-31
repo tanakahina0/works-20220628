@@ -247,12 +247,14 @@ table.info th {
 }
 
 /* 会社概要 */
+.company-contents {
+	display: flex;
+}
 .map {
-	margin: -20px 0 0 400px;
 	width: 500px;
 	height: 0;
 	overflow: hidden;
-	padding-bottom: 56.25%;
+	padding-bottom: 40%;
 	position: relative;
 }
 .map iframe{
@@ -264,7 +266,8 @@ table.info th {
 }
 .ab-text{
 	color: #D4B57C;
-	margin: auto 0 0 0;
+	margin: 0 30px 50px 0;
+	width: 28vw;
 }
 /* マップ */
 div.map {
@@ -302,6 +305,72 @@ input[type=submit] {
 }
 .contact{
 	text-align: center;
+}
+
+/* 商品ページ */
+.china-dress {
+	margin: 20px auto;
+	width: 50%;
+}
+.images-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profile_img h1 {
+    text-align: center;
+    color: #2B2D44;
+}
+
+.goods-name,.price {
+	color: #D4B57C;/*色*/
+	display: block;
+	padding-left: 20px;
+	font-weight: bold;
+}
+
+.goods-ID {
+	color: #cfcfcf;/*色*/
+	display: block;
+	padding-left: 20px;
+	font-size: x-small;
+}
+
+.price {
+	font-size: small;
+}
+
+/* パンくずリスト */
+.breadcrumb {
+	margin-top: 10px;
+	padding-left: 20px;
+	list-style: none;
+	font-size: x-small;
+}
+  
+.breadcrumb li {
+	display: inline;/*横に並ぶように*/
+	list-style: none;
+	
+}
+  
+.breadcrumb li:after {/* >を表示*/
+	content: '>';
+	padding: 0 0.2em;
+	color: #4c4943;
+}
+  
+.breadcrumb li:last-child:after {
+	content: '';
+}
+  
+.breadcrumb li a {
+	text-decoration: none;
+	color: #D4B57C;/*色*/
+}
+  
+.breadcrumb li a:hover {
+	text-decoration: underline;
 }
 
 @media screen and (max-width:640px) {
