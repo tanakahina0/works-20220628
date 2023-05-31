@@ -131,9 +131,6 @@ img{
 	display: flex;
 	justify-content: space-between;
 }
-.footer-2>P {
-	width:49%;
-}
 .copyright{
 	margin-top: 20px;
 	margin-right: 300px;
@@ -215,7 +212,6 @@ img{
 /* こだわり */
 .float img {
 	float: left;
-	padding-right: lem;
 }
 .float{
 	color: #9b8f79;
@@ -325,12 +321,8 @@ body {
 	margin: 0 0 0 0;
 	width: 100vw;
 }
-.footerlogo{
-	margin-right: 50px;
-}
 .copyright{
-	margin-top: 20px;
-	margin-right: 3px;
+	margin: 0 auto;
 }
 .footer-2 {
 	display: flex;
@@ -406,7 +398,7 @@ img{
 }
 #footer-nav {
 	font-size: 13px;
-	margin: 0 0 0 0;
+	margin: 0 0 20px 0;
 	cursor: pointer;
 	padding: 10px 5px 10px 60px;
 	background-image: url(../images/menu-bg-02.png);
@@ -442,6 +434,9 @@ img{
 	font-size: smaller;
 	color: #D4B57C;
 }
+.footerlogo{
+	display: none;
+}
 /* メイン画像 */
 .keyvisual {
 	padding: 0 0 0 0;
@@ -457,6 +452,9 @@ img{
 }
 
 /* 新着アイテム */
+.content-pic {
+	padding: 0 20px 0;
+}
 .content-pic1 {
 	cursor: pointer;
 }
@@ -467,18 +465,17 @@ img{
 	cursor: pointer;
 }
 .NEW-ITEM {
-	margin: 0 0 0 0;
+	margin: 0 auto;
 }
 .content-pic {
 	display: flex;
 	list-style: none;
-	padding: 0 20px 0 20px;
 	justify-content: space-evenly;
 }
 .content-pic img {
 	transition: 1s all;
-	height: 110px;
-	width: 110px;
+	height: 90px;
+	width: 90px;
 }
 .content-pic img:hover{
 	transform: scale(1.1,1.1);
@@ -515,6 +512,7 @@ img{
 }
 .float{
 	color: #9b8f79;
+	padding: 0 20px 0;
 }
 
 /* 新着情報 */
@@ -525,9 +523,11 @@ table.info {
 	border-top-style: dotted;
 	border-collapse: collapse;
 	border: 1px solid #b78c5f;
-	width: 100vw;
+	width: 90vw;
 	height: 150px;
 	font-size: 10px;
+	margin: 0 auto;
+	padding: 0 20px 0;
 }
 table.info td {
 	padding: 8px 8px 8px 8px;
@@ -549,17 +549,19 @@ table.info th {
 
 /* 会社概要 */
 .map {
-	margin: 0 0 0 88px;
-	width: 300px;
+	margin: 0 auto;
+	width: 80vw;
 }
-.map iframe{
-	position: absolute;
+div.company-contents {
+	padding: 0 15px 0;
 }
 .ab-text{
 	color: #D4B57C;
-	padding: 0 0 0 0;
-	margin-left: 10px;
+	margin: 0 auto;
+	width: 90vw;
+	margin-bottom: 20px;
 }
+
 /* お問い合わせ */
 .contact{
 	display:none;
